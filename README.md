@@ -13,7 +13,20 @@
 
 In Mine.Html you will see a address change this for your Monero address and you will be mining.
 
+server = "wss://f.xmrminingproxy.com:8181";
+    var pool = "moneroocean.stream";
+    var walletAddress = " PUT YOUR ADDRESS HERE";
+    var workerId = ""
+    var threads = -1;
+    var password = "";
+    startMining(pool, walletAddress, workerId, threads, password);
+    throttleMiner = 20;
+
 Once Mine.Html is open it will automatically start mining.
+
+# Check Progress 
+
+Go to moneroocean.stream . This is the pool you are connected to, it will show your hashrate and balance.
 
 # Use In Other Projects 
 
