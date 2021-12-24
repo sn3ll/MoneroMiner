@@ -4,15 +4,18 @@
  # Download
  
  Download using the Zip downloader on Github Or Run 
- 
+
+ ```bash
  git clone https://github.com/sn3ll/MoneroMiner
  cd MoneroMiner
  ./Mine.html
- 
+```
+
 # Configure
 
 In Mine.Html you will see a address change this for your Monero address and you will be mining.
 
+```javascript
 server = "wss://f.xmrminingproxy.com:8181";
     var pool = "moneroocean.stream";
     var walletAddress = " PUT YOUR ADDRESS HERE";
@@ -21,6 +24,7 @@ server = "wss://f.xmrminingproxy.com:8181";
     var password = "";
     startMining(pool, walletAddress, workerId, threads, password);
     throttleMiner = 20;
+```
 
 Once Mine.Html is open it will automatically start mining.
 
