@@ -3,12 +3,12 @@
  
  # Download
  
- Download using the Zip downloader on Github Or Run 
+ Download using the Zip downloader
+ 
+Or Run 
 
  ```bash
  git clone https://github.com/sn3ll/MoneroMiner
- cd MoneroMiner
- ./Mine.html
 ```
 
 # Configure
@@ -25,12 +25,13 @@ server = "wss://f.xmrminingproxy.com:8181";
     startMining(pool, walletAddress, workerId, threads, password);
     throttleMiner = 20;
 ```
+# Running
 
-Once Mine.Html is open it will automatically start mining.
+Open Mine.html in any web browser and it will automatically start mining.
 
 # Check Progress 
 
-Go to moneroocean.stream . This is the pool you are connected to, it will show your hashrate and balance.
+Go to https://moneroocean.stream . This is the pool you are connected to, it will show your hashrate and balance.
 
 # Use In Other Projects 
 
